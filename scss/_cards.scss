@@ -1,0 +1,46 @@
+//inicia seccion cards promocion
+
+.section-promo{
+    grid-area: section-promo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .card-promo{
+        margin: 4px 10px;
+    }
+
+        .card-body{
+            .card-title{
+                font-size: 1.6rem;
+            }
+            .card-text{
+                font-size: 1.4rem;
+                font-weight: $lightFont;
+                text-align: center;
+            }
+            
+        }
+
+        .card .text-crossout{
+            text-decoration: line-through;
+            }
+        
+}
+//fin cards promocion
+
+//inicia seccion cards nosotros
+
+.seccion-proyectos{
+    
+    .accordion{
+        .boton-prueba{
+            font-size: $textS;
+
+        }
+
+    }
+}
+//fin seccion cards nosotros
+
+//inicia seccion cards a medida

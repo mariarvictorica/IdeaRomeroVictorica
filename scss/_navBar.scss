@@ -1,0 +1,36 @@
+.header-principal{
+    
+    .informacion{
+        padding:5px 0px;
+        text-align: center;
+        font-family: Josefin Sans;
+        font-size:$textM;
+        font-weight: 200;
+        color: white;
+        text-align: center;
+        background-color: #3D5859;
+
+    }    
+    .container-fluid{
+        .navbar{
+            .navbar-brand{
+                img{
+                    width: 180;
+                }
+
+            }
+       }     
+        
+        .menu-principal{
+            .navbar-nav{
+                .nav-link{
+                        color: black;
+                        font-family: Josefin Sans;
+                        font-weight: $lightFont;
+                        font-size: 20rem;
+                }
+            }
+        }
+        
+    }     
+}

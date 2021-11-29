@@ -1,0 +1,13 @@
+
+.header-principal{
+    grid-area: encabezado;
+        .informacion{
+            background-color: $primary;
+            height: 4vh;
+            color: rgb(250, 244, 244);
+            font-size: $textS;
+            font-weight: $lightFont;
+            text-align: center;
+            padding-top: 5px;
+        }
+}

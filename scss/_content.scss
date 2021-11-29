@@ -1,0 +1,252 @@
+//contenido principal index
+
+.portada{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Josefin Sans;
+    
+        .titulo-portada{
+            font-weight: $boldFont;
+            font-size: $textXxl;
+            text-decoration: none;
+            color: black; 
+        }
+        .texto-portada{
+                color: black;
+                font-family: Josefin Sans;
+                font-size:$textS;
+                font-weight: $mediumFont;
+                margin-top: 20px;
+        }
+}
+
+.contenidoPrincipal{
+    display: $d-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $mainFont;
+    
+                
+        h3{
+            font-family: $mainFont;
+            font-size: $textL;
+            font-weight: $boldFont;
+        }          
+
+
+        .textoFibras{
+            background-image: url(../img/textura-bamboo.jpg);
+            background-position: center;
+            padding: 20px;
+            font-size: $textXs;
+            font-weight: $mediumFont;
+            color: black;
+        }
+                        
+        .textoEspacios{
+            background-image: url(../img/espacio-inspiracion.jpg);
+            background-position: center;
+            padding: 20px;
+            font-size: $textXs;
+            font-weight: $mediumFont;
+            color: black;
+        }
+                        
+        .textoPromociones{
+            background-image: url(../img/lampara-bamboo.jpg);
+            background-position: center;
+            padding: 20px;
+            font-size: $textXs;
+            font-weight: $mediumFont;
+            color: black;
+                a{
+                    font-size:$textL;
+                    font-weight: 300;
+                    text-decoration: none;
+                    color:black;
+                }
+                        
+        }
+
+}
+// termina contenido principal index
+
+// inicio seccion promociones
+.body-promo{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-areas: "encabezado encabezado encabezado encabezado" "gift carousel carousel carousel" "plain plain plain plain" "section-promo section-promo section-promo section-promo" "pie pie pie pie";
+	grid-row-gap: 10px;
+	grid-row-gap: 6px;
+	height: 100vh;
+
+        .header-grid{
+            grid-area: encabezado;
+        }
+
+        .section-gift{
+            grid-area: gift;
+            background-color: $secondary;
+	        font-size: 1.8rem;
+            font-weight: $lightFont;
+	        margin-right: 6px;
+            padding: 6%;
+
+                h3{
+                    font-size: 3rem;
+                }
+
+                h4{
+                    font-size: 6rem;
+                    padding-bottom: 10px;
+                }
+
+                p{
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+
+                .btn-gift{
+                    font-size: 2rem;
+                    border: black;
+                    color: #720f54;
+                    background-color: #F3F3EF;
+                    width: 10rem;
+                    height: 4rem;
+                    border-radius: 20px;
+                }
+        }
+        
+        .carousel-promo{
+            grid-area: carousel;
+        }
+        
+        .descuentos-promo{
+            grid-area: plain;
+            background-color: $oldRose;
+            margin: 10px 0px;
+            
+            h3{
+                font-size: 2.5rem;
+                color: #F3F3EF;
+                text-align: center;
+                margin: 20px 0px;  
+                font-weight: $lightFont;
+            }
+
+        }
+        
+
+}
+// cierra seccion promociones
+
+// inicia seccion nosotros
+.container-fluid{
+    
+    .container-nosotros{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+
+        .imagen-arq{
+            padding: 20px;
+        }
+
+        .intro{
+            
+            h3{
+                margin-top: 0;
+				margin-bottom: 30px;
+				font-size: 3rem;
+				font-weight: 400;
+                padding: 40px 70px;
+            }
+            
+            div{
+                padding-left: 50px;
+            }
+            
+            div{
+                padding: 30px 30px;
+                
+                p{
+                    text-align: justify;
+                    font-size: $textS;
+                    font-weight: $lightFont;  
+                    padding-right: 20px;    
+                }
+
+            }
+            
+        
+        }
+
+    }
+
+}
+   
+// cierra seccion nosotros
+
+// inicia seccion store
+
+
+.bg-taupe{
+    background-color:#BFBD9F;
+    margin: 0;
+
+}
+
+.btn-store{
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    color: $primary;
+    
+}
+
+.btn-ver{
+    border: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    color: $primary;
+    cursor: pointer;
+    transform: translateX(90px);
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
+
+.textM{
+    font-size: $textS;
+    font-weight: $lightFont;
+}
+
+.titulo-tarjeta{
+    font-weight: $boldFont;
+}
+
+// inicia seccion a medida
+
+.titulo-featurette{
+    font-size: $textL;
+    text-decoration: none
+    
+}
+
+.descripcion-featurette{
+    font-size: $textS;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.text-taupe{
+    color: $secondary;
+    font-weight: $lightFont;
+    font-size: $textM;
+    text-decoration: none;
+    text-shadow: none;
+}
