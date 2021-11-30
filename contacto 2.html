@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Consultá sobre que hacemos, muebles a medida, decoración.">
+	<meta name="keywords" content="decoración, interiorismo, muebles, sillónes, textiles, estudio de arquitectura, reformas">
+	<meta name="robots" content="nofollow">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">			
+	<!-- Mi propio CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<title>Contactanos - Consultá sobre Arquitectura, Interiorismo y Decoración</title>
+
+</head>
+
+<body>
+	<!-- inicio header -->	
+	<header class="header-principal">
+		<div class="informacion">10% de descuento en efectivo / 3 cuotas sín interés / envíos a todo el país</div>
+			<div class="container-fluid navbar-expand-lg navbar-expand-md">
+				<nav class="navbar navbar-light">
+					<a class="navbar-brand" href="index.html">
+						<img src="img/logo-emprendimiento.png" alt="logo de marca" width="180" class="d-inline-block align-text-top">
+					</a>
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class= "collapse navbar-collapse menu-principal" id="navbarTogglerDemo01">
+						<div class="navbar-nav text-center ms-auto">
+							<a class="nav-link px-4 fs-2 hover" href="store.html">Store</a>
+							<a class="nav-link px-4 fs-2" href="a medida.html">A Medida</a>
+							<a class="nav-link px-4 fs-2" href="promociones.html">Promociones</a>
+							<a class="nav-link px-4 fs-2" href="nosotros.html">Nosotros</a>
+							<a class="nav-link px-4 fs-2" href="contacto.html">Contacto</a>
+						</div>	
+					</div>
+				</nav>
+			</div>
+	</header>
+
+		<!-- inicio formulario de contacto -->
+	<div>
+		<h3>Escribínos!</h3>
+		<form>
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<form action="archivo.php" method="post">
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre"> <br>
+				<label for="email">Email</label>
+				<input type="text" id="email" placeholder="mail@mail.com"> <br>
+				<label for="telefono">Teléfono</label>
+				<input type="telefono" name="telefono" placeholder="11-61234567"> <br>
+			</fieldset><br>
+			<label for="">¿Querés recibir novedades?</label>
+			<label for="">Si</label>
+			<input type="radio" value="si" name="¿Querés recibir novedades?">
+			<label for="">No</label>
+			<input type="radio" value="si" name="¿Querés recibir novedades?"><br>
+			
+			<label for="">¿Conocías anteriormente la marca?</label>
+			<select name="conoce la marca">
+				<option value="si">Sí</option>
+				<option value="no">No</option>
+				<option value="no se">No estoy segura/o</option>
+			</select><br>
+			<br>
+			<label for="">¿Sobre qué buscas info?</label> 
+			<br>
+			<label for="">Tienda Online</label>
+			<input type="radio" value="tienda online" name="tienda online"> <br>
+			<label for="">Muebles a medida</label>
+			<input type="radio"	value="muebles a medida" name="muebles a medida"> <br>
+			<label for="">Asesoramiento</label>
+			<input type="radio" value="aseoramiento" name="asesoramiento"> <br>
+			<label for="">Otro</label><br>
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<br>
+			<input type="reset" value="Cancelar">
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+
+		<footer class="zocalo">
+			<div class="zocaloRedes">
+				<a href="http://facebook.com">
+					<img src="img/logo-facebook.png" alt="logo de facebook" width="40px"></a>
+				<a href="http://instagram.com">
+					<img src="img/logo-instagram.png" alt="logo de instagram" width="40px"></a>
+			</div>
+			<h4>Av. José Roque Funes 1518 | Córdoba | Argentina</h4>
+		</footer>
+
+	
+	
+	<!-- script bootstrap -->	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>	
